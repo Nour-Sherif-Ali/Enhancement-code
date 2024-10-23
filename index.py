@@ -7,7 +7,8 @@ skI = cv2.imread('images/C01_png.rf.30b378eb272884b9d8b8a7605a8432b6.jpg')
 # Convert the image from BGR to RGB (OpenCV loads images in BGR format)
 skI = cv2.cvtColor(skI, cv2.COLOR_BGR2RGB)
 
-# Display the original RGB image
+# Display the original RGB im
+betngaaan 
 plt.subplot(1, 2, 1)
 plt.imshow(skI)
 plt.title("Original Image")
